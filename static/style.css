@@ -1,0 +1,184 @@
+body
+{
+background-image:linear-gradient(rgba(5,5,34,0.72),rgba(5,5,34,0.82)),url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+margin-left:150px;
+margin-right:150px;
+margin-top:30px;
+font-family:"Trebuchet MS",Arial,sans-serif;
+font-size:18px;
+color:white;
+letter-spacing:0.3px;
+}
+
+h1
+{
+background-color:rgba(6,6,43,0.92);
+color:#ffe66d;
+text-align:center;
+border:3px solid #7563ff;
+border-radius:18px;
+padding:18px;
+font-family:Georgia,"Times New Roman",serif;
+font-size:38px;
+letter-spacing:2px;
+box-shadow:0px 6px 18px rgba(0,0,0,0.5);
+}
+
+h2
+{
+background-color:rgba(15,15,63,0.94);
+color:#ffdf70;
+text-align:center;
+border:2px solid #8c82ff;
+border-radius:14px;
+padding:12px;
+font-family:Georgia,"Times New Roman",serif;
+font-size:25px;
+letter-spacing:1px;
+box-shadow:0px 4px 12px rgba(0,0,0,0.4);
+}
+
+p
+{
+background-color:rgba(248,248,255,0.96);
+color:#101032;
+border:3px solid #6c63ff;
+border-radius:15px;
+padding:18px;
+line-height:1.6;
+box-shadow:0px 5px 15px rgba(0,0,0,0.35);
+}
+
+.menu
+{
+background-color:rgba(54,76,148,0.92);
+text-align:center;
+padding:16px;
+border:2px solid #b9b9ff;
+border-radius:18px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+}
+
+.menu a
+{
+color:white;
+text-decoration:none;
+font-weight:bold;
+font-family:"Trebuchet MS",Arial,sans-serif;
+margin:15px;
+padding:7px 10px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.menu a:hover
+{
+color:#ffdf70;
+background-color:#202060;
+}
+
+table
+{
+width:100%;
+background-color:rgba(248,248,255,0.97);
+color:#15153d;
+border:3px solid #6c63ff;
+border-radius:15px;
+border-collapse:separate;
+border-spacing:0;
+overflow:hidden;
+margin-top:20px;
+margin-bottom:20px;
+box-shadow:0px 6px 18px rgba(0,0,0,0.4);
+}
+
+td
+{
+padding:15px;
+border:1px solid #7777bb;
+line-height:1.4;
+}
+
+th
+{
+padding:15px;
+background-color:#292970;
+color:white;
+border:1px solid #7777bb;
+font-family:Georgia,"Times New Roman",serif;
+font-size:18px;
+}
+
+img
+{
+border:4px solid #8c82ff;
+border-radius:15px;
+margin:15px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.5);
+}
+
+li
+{
+background-color:rgba(248,248,255,0.96);
+color:#15153d;
+border:2px solid #7777bb;
+border-radius:12px;
+padding:11px;
+margin:10px;
+box-shadow:0px 3px 8px rgba(0,0,0,0.3);
+}
+
+form
+{
+background-image:linear-gradient(rgba(5,5,34,0.65),rgba(5,5,34,0.65)),url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
+background-size:cover;
+background-position:center;
+color:white;
+border:3px solid #6c63ff;
+border-radius:18px;
+padding:25px;
+font-size:20px;
+box-shadow:0px 6px 18px rgba(0,0,0,0.4);
+}
+
+input
+{
+padding:11px;
+font-size:18px;
+margin:10px;
+border:2px solid #7777bb;
+border-radius:9px;
+font-family:"Trebuchet MS",Arial,sans-serif;
+}
+
+textarea
+{
+padding:11px;
+font-size:18px;
+margin:10px;
+border:2px solid #7777bb;
+border-radius:9px;
+font-family:"Trebuchet MS",Arial,sans-serif;
+}
+
+button
+{
+background-color:#292970;
+color:white;
+padding:12px 25px;
+font-size:18px;
+border:2px solid #8c82ff;
+border-radius:10px;
+font-family:"Trebuchet MS",Arial,sans-serif;
+box-shadow:0px 4px 10px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+button:hover
+{
+background-color:#5555aa;
+transform:scale(1.03);
+}
